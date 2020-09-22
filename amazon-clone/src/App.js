@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Header from './Header'
 
 
 // function App() {
@@ -30,9 +30,8 @@ function App(){
         {/*This is the default page */}
         <Route path="/">
           <div className="app">
-            <header>
-              <h1>Building an amazon clone with React JS</h1>
-            </header>
+            <Header />
+            <h1>Home Page</h1>
           </div>
         </Route>
 
